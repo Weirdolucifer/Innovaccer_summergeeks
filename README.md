@@ -48,7 +48,7 @@ Install the required dependencies using the following command
 ```
 pip3 install -r requirements.txt
 ```
-database setup
+database setup/importing database: 
 ```
 CREATE DATABASE innovaccer;
 mysql -u [username] -p innovaccer < innovaccer.sql

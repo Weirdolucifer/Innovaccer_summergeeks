@@ -54,10 +54,10 @@ CREATE DATABASE innovaccer;
 mysql -u [username] -p innovaccer < innovaccer.sql
 ```
 
-.env file set up / replace on app.py headers
+.env file set up / replace in app.py headers
 ```
 TWILIO_ACCOUNT_SID='your_account_sid'
-TWILIO_AUTH_TOKEN='your_account_aut_token'
+TWILIO_AUTH_TOKEN='your_account_auth_token'
 MYSQL_HOST = 'localhost'
 MYSQL_USER = 'root'
 MYSQL_PASSWORD = 'your_password'
@@ -66,8 +66,8 @@ MAIL_SERVER = 'smtp.gmail.com'
 MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
-MAIL_USERNAME = 'yor_gmail_id'
-MAIL_PASSWORD = 'your_app_password_generated_by_gmail_after_two_facor_login'
+MAIL_USERNAME = 'your_gmail_id'
+MAIL_PASSWORD = 'your_app_password_generated_by_gmail_after_two_factor_login'
 MAIL_DEFAULT_SENDER = 'your_gmail_id'
 ```
 

@@ -14,8 +14,7 @@ The host will add all his/her details like Name, Phone, and Email. We are valida
 When Visitor is checking out, we are asking for his/her Email id (`Primary Key`). We are fetching his/her details including respective host information. If he/she has already checked out, then it will throw an error. As soon as a person checked out we are sending an email to a visitor having details (`Name, Phone, Check-in time, Check-out time, Host Name, Address Visited`).
 
 ## WorkFlow
-| ![comic](comic.png) | 
-|:--:| 
+| ![](workflow.png) 
 
 # Production Deployment
 This software is already deployed on PythonAywhere. Give it a try 

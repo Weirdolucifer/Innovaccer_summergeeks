@@ -48,7 +48,11 @@ Install the required dependencies using the following command
 ```
 pip3 install -r requirements.txt
 ```
-
+database setup
+```
+CREATE DATABASE innovaccer;
+mysql -u [username] -p innovaccer < innovaccer.sql
+```
 Run the following command to set up local server
 ```
 python3 app.py
